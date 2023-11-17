@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.content.SharedPreferences;
-import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 import com.google.gson.Gson;
 import java.lang.reflect.Type;
@@ -21,8 +20,6 @@ import com.google.gson.reflect.TypeToken;
 public class MainActivity extends AppCompatActivity {
 
     //UI Elements
-//    private TabItem tabDue;
-//    private TabItem tabComplete;
     private ListView dueList;
     private EditText textNoteDescription;
     private Button btnAddNote;
